@@ -11,6 +11,9 @@
 
 	<artifactId>learnlib-jlearn</artifactId>
 	<packaging>jar</packaging>
+
+	<name>LearnLib :: JLearn Bridge</name>
+	<description>This artifact makes the algorithms of the old LearnLib available for the new infrastructure</description>
 	
 	<build>
 		<pluginManagement>
