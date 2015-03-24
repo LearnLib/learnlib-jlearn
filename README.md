@@ -13,6 +13,10 @@ The following is the list of algorithms (class names) provided in these package.
 ## License
 The *source code* of this artifact is distributed under the terms of the [GNU Lesser General Public License, version 3 (LGPLv3)][3]. However, to build and use this artifact, you need the closed-source version of LearnLib, which is distributed under an [academic-use-only license][1]. By building and using this artifact, you hence agree to the closed-source LearnLib license terms.
 
+## Maintainers
+* [Malte Isberner][4]
+
 [1]: http://ls5-www.cs.tu-dortmund.de/projects/learnlib/index.php
 [2]: http://learnlib.de/
 [3]: https://www.gnu.org/licenses/lgpl-3.0.html
+[4]: https://github.com/misberner
