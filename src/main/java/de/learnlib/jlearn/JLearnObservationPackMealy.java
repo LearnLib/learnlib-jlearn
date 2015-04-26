@@ -16,6 +16,8 @@
  */
 package de.learnlib.jlearn;
 
+import java.util.Collections;
+
 import net.automatalib.words.Alphabet;
 import net.automatalib.words.Word;
 import de.learnlib.api.MembershipOracle;
@@ -28,5 +30,7 @@ public class JLearnObservationPackMealy<I,O> extends JLearnMealyLearner<I, O> {
 			MembershipOracle<I, Word<O>> oracle,
 			JLearnSplitterCreator sc) {
 		super(alphabet, oracle, new ObservationPack(false), sc);
+		((ObservationPack) jlearnLearner).setdInit(Collections.emptyList());
+		((ObservationPack) jlearnLearner).setFullTraces(true);
 	}
 }
